@@ -1,26 +1,29 @@
 <template>
+    <div>
+        <HeaderDiTesta />
+        <FiguresDc />
+        <CataLog />
+        <SectionTwo />
+    </div>
 
 </template>
 
 <script>
-
 import HeaderDiTesta from './components/HeaderDiTesta.vue'
+import FiguresDc from './components/FiguresDc.vue'
+import CataLog from './components/CataLog.vue'
+import SectionTwo from './components/SectionTwo.vue'
 
 export default {
-  name: 'App',
   components: {
-    HeaderDiTesta
+    HeaderDiTesta,
+    FiguresDc,
+    CataLog,
+    SectionTwo,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './style/reset.scss';
 </style>
