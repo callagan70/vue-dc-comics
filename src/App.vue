@@ -1,11 +1,12 @@
 <template>
-    <div>
+  <div>
         <HeaderDiTesta />
         <FiguresDc />
         <CataLog />
         <SectionTwo />
         <SectionThree />
-    </div>
+        <FooTer />
+  </div>
 
 </template>
 
@@ -15,6 +16,7 @@ import FiguresDc from './components/FiguresDc.vue'
 import CataLog from './components/CataLog.vue'
 import SectionTwo from './components/SectionTwo.vue'
 import SectionThree from './components/SectionThree.vue'
+import FooTer from './components/FooTer.vue'
 
 export default {
   components: {
@@ -23,6 +25,7 @@ export default {
     CataLog,
     SectionTwo,
     SectionThree,
+    FooTer,
   }
 }
 </script>

@@ -11,8 +11,10 @@
             </div>
         </div>
     </div>
-    <div class="bottom">
-            Load More
+    <div class="black">
+          <div class="bottom">
+                  Load More
+          </div>
     </div>
 </div>
 </template>
@@ -34,15 +36,19 @@
         height: 100px;
         width: 100px;
     }
-.bottom{
-    margin: 0 auto;
-    color: white;
-    background-color: aqua;
-    text-align: center;
-    width: 100px;
-    padding: 10px;
-}
+    .bottom{
+        margin: 0 auto;
+        color: white;
+        background-color: #0282F9;
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+    }
 
+    .black{   
+      background: black;
+      padding-bottom: 20px;
+    }
 </style>
 
 <script>
