@@ -4,6 +4,7 @@
         <FiguresDc />
         <CataLog />
         <SectionTwo />
+        <SectionThree />
     </div>
 
 </template>
@@ -13,6 +14,7 @@ import HeaderDiTesta from './components/HeaderDiTesta.vue'
 import FiguresDc from './components/FiguresDc.vue'
 import CataLog from './components/CataLog.vue'
 import SectionTwo from './components/SectionTwo.vue'
+import SectionThree from './components/SectionThree.vue'
 
 export default {
   components: {
@@ -20,6 +22,7 @@ export default {
     FiguresDc,
     CataLog,
     SectionTwo,
+    SectionThree,
   }
 }
 </script>
